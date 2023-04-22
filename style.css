@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+  }
+  body {
+    background-color: #ebf5fb;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .form {
+    background-color: #fff;
+    border-radius: 14px;
+    padding: 32px;
+    width: 450px;
+    box-shadow: 0 0 10px rgba(33, 33, 33, 0.1);
+  }
+  /* Label top */
+  .label {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .caption {
+    font-size: 14px;
+    color: #808b96;
+    margin-top: 12px;
+    margin-bottom: 24px;
+  }
+  .card-price {
+    display: flex;
+    align-items: center;
+    border: solid 1.5px #3498db;
+    border-radius: 4px;
+    justify-content: space-between;
+    padding: 8px 16px;
+    background-color: #eff5f5;
+    margin-bottom: 24px;
+  }
+  .card-price .left {
+    display: flex;
+    align-items: center;
+  }
+  .card-price .left .name-price {
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .card-price .left img {
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+    margin-right: 8px;
+  }
+  .card-price .right {
+    display: flex;
+    align-items: flex-end;
+  }
+  .card-price .right .num {
+    font-size: 26px;
+    display: flex;
+    align-items: flex-start;
+  }
+  .card-price .right span {
+    font-size: 14px;
+    color: #808b96;
+    margin-right: 4px;
+  }
+  .year {
+    margin-bottom: 4px;
+  }
+  * a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+  }
+  .label-sub {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .credits {
+    margin: 16px 0;
+  }
+  .credits .card-1 img {
+    width: 50px;
+    height: 50px;
+    margin-right: 16px;
+  }
+  .credits .card-1 .left {
+    display: flex;
+    align-items: center;
+  }
+  .credits .card-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+  }
+  .credits .card-1 .right input {
+    width: 60px;
+    padding: 2px 4px;
+    border: solid 1px #d7dbdd;
+    height: 30px;
+    border-radius: 4px;
+  }
+  .pay-m {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .email {
+    margin: 24px 0;
+    width: 100%;
+    padding: 2px 12px;
+    height: 40px;
+    border: solid 1px #d7dbdd;
+    border-radius: 4px;
+  }
+  * ::placeholder {
+    color: #d7dbdd;
+  }
+  button {
+    background-color: #3498db;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    width: 100%;
+    padding: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
